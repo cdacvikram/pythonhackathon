@@ -1,6 +1,7 @@
 From python:3.9
 COPY requirements.txt .
-COPY ./src ./src
+WORKDIR /app
+COPY . .
 
 RUN pip install -r requirements.txt
-CMD python ./src/main.py
+CMD python -m main.py

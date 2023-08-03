@@ -1,7 +1,7 @@
 import logging
 import email
 import re
-from src.processmailer.gmail.readmail import Gmail
+from processmailer.gmail.readmail import Gmail
 
 log = logging.getLogger(__name__)
 

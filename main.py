@@ -1,5 +1,5 @@
 import logging.config
-from src.processmailer.read_msg import ProcessMessages
+from processmailer import ProcessMessages
 
 
 logging.config.fileConfig(fname='../logger.conf', disable_existing_loggers=False)
