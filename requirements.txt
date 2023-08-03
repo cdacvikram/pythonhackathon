@@ -1,7 +1,7 @@
 pyyaml
-flask
-matplotlib
-numpy
-pandas
-scipy
-scikit-learn
+#flask
+#matplotlib
+#numpy
+#pandas
+#scipy
+#scikit-learn
